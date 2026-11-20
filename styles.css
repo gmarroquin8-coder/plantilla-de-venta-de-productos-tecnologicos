@@ -167,6 +167,10 @@
       transition: background 150ms ease, border-color 150ms ease;
     }
 
+    #admin-link[hidden] {
+      display: none;
+    }
+
     .header-button:hover,
     .header-button[aria-expanded="true"] {
       border-color: var(--line);

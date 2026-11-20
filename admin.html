@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>Administrar productos | Voltio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+  <script src="admin.js" defer></script>
+</head>
+<body class="admin-page">
+  <header class="admin-header">
+    <a class="brand" href="/" aria-label="Voltio, tienda">
+      <span class="brand-mark" aria-hidden="true">ϟ</span>
+      <span>voltio<span class="brand-dot">.</span></span>
+    </a>
+    <div class="admin-header-actions">
+      <a class="admin-back-link" href="/">Volver a la tienda</a>
+      <button class="admin-logout" id="admin-logout" type="button">Cerrar sesión</button>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <section class="admin-intro" aria-labelledby="admin-title">
+      <p class="admin-kicker">Panel privado</p>
+      <h1 id="admin-title">Administrar productos</h1>
+      <p>Solo las cuentas administradoras pueden ver y modificar este catálogo.</p>
+    </section>
+
+    <p class="admin-notice" id="admin-notice" role="status" hidden></p>
+
+    <section class="admin-card" aria-labelledby="product-form-title">
+      <div class="admin-card-heading">
+        <div>
+          <p class="admin-kicker">Catálogo</p>
+          <h2 id="product-form-title">Agregar producto</h2>
+        </div>
+        <button class="admin-secondary-button" id="reset-product-form" type="button" hidden>Cancelar edición</button>
+      </div>
+
+      <form class="product-form" id="product-form">
+        <label>
+          Identificador
+          <input name="id" type="text" minlength="1" maxlength="100" pattern="[a-z0-9]+(-[a-z0-9]+)*" autocomplete="off" placeholder="audifonos-nova" required>
+          <small>Usa minúsculas, números y guiones; no se puede cambiar después de crear.</small>
+        </label>
+        <label>
+          Categoría
+          <select name="categoryId" required></select>
+        </label>
+        <label>
+          Nombre
+          <input name="name" type="text" maxlength="200" required>
+        </label>
+        <label>
+          Emoji
+          <input name="emoji" type="text" maxlength="16" required>
+        </label>
+        <label class="form-field-wide">
+          Descripción
+          <textarea name="description" maxlength="1000" rows="3" required></textarea>
+        </label>
+        <label>
+          Precio (MXN)
+          <input name="price" type="number" min="0" max="100000000" step="1" required>
+        </label>
+        <label>
+          Existencias de muestra
+          <input name="stock" type="number" min="0" max="1000000" step="1" required>
+        </label>
+        <label>
+          Etiqueta
+          <input name="badge" type="text" maxlength="100">
+        </label>
+        <label>
+          Calificación
+          <input name="rating" type="number" min="0" max="5" step="0.1" required>
+        </label>
+        <label>
+          Número de reseñas
+          <input name="reviews" type="number" min="0" max="1000000" step="1" required>
+        </label>
+        <div class="form-actions form-field-wide">
+          <button class="admin-primary-button" type="submit">Guardar producto</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="admin-card" aria-labelledby="products-heading">
+      <div class="admin-card-heading">
+        <div>
+          <p class="admin-kicker">Administración</p>
+          <h2 id="products-heading">Productos</h2>
+        </div>
+        <span class="admin-product-count" id="product-count"></span>
+      </div>
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th scope="col">Producto</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Existencias</th>
+              <th scope="col">Estado</th>
+              <th scope="col"><span class="visually-hidden">Acciones</span></th>
+            </tr>
+          </thead>
+          <tbody id="products-table-body">
+            <tr><td class="table-message" colspan="6">Cargando productos...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

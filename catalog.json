@@ -1,0 +1,1866 @@
+{
+  "categories": [
+    {
+      "id": "electrodomesticos",
+      "name": "Electrodomésticos",
+      "emoji": "🏠",
+      "products": [
+        {
+          "id": "cafetera",
+          "name": "Cafetera automática Aroma+",
+          "emoji": "☕",
+          "price": 1899,
+          "badge": "Más vendido",
+          "rating": "4.9",
+          "reviews": 128,
+          "description": "Cafetera automática Aroma+. Una ayuda práctica para hacer más sencilla tu rutina en casa.",
+          "stock": 20
+        },
+        {
+          "id": "freidora",
+          "name": "Freidora de aire Crispy 5L",
+          "emoji": "🍟",
+          "price": 2299,
+          "badge": "Favorito",
+          "rating": "4.8",
+          "reviews": 94,
+          "description": "Freidora de aire Crispy 5L. Diseño funcional y cómodo para el uso de todos los días.",
+          "stock": 20
+        },
+        {
+          "id": "licuadora",
+          "name": "Licuadora ProBlend 900",
+          "emoji": "🥤",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 76,
+          "description": "Licuadora ProBlend 900. Una forma simple de renovar tu espacio y ahorrar tiempo.",
+          "stock": 20
+        },
+        {
+          "id": "aspiradora",
+          "name": "Aspiradora compacta CleanGo",
+          "emoji": "🧹",
+          "price": 2499,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 41,
+          "description": "Aspiradora compacta CleanGo. Una ayuda práctica para hacer más sencilla tu rutina en casa.",
+          "stock": 20
+        },
+        {
+          "id": "microondas",
+          "name": "Microondas digital QuickHeat",
+          "emoji": "♨️",
+          "price": 2199,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Microondas digital QuickHeat. Diseño funcional y cómodo para el uso de todos los días.",
+          "stock": 20
+        },
+        {
+          "id": "tostador",
+          "name": "Tostador compacto 2 rebanadas",
+          "emoji": "🍞",
+          "price": 599,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Tostador compacto 2 rebanadas. Una forma simple de renovar tu espacio y ahorrar tiempo.",
+          "stock": 20
+        },
+        {
+          "id": "arrocera",
+          "name": "Arrocera eléctrica EasyCook",
+          "emoji": "🍚",
+          "price": 899,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Arrocera eléctrica EasyCook. Una ayuda práctica para hacer más sencilla tu rutina en casa.",
+          "stock": 20
+        },
+        {
+          "id": "hervidor",
+          "name": "Hervidor eléctrico de acero",
+          "emoji": "🫖",
+          "price": 749,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Hervidor eléctrico de acero. Diseño funcional y cómodo para el uso de todos los días.",
+          "stock": 20
+        },
+        {
+          "id": "sandwichera",
+          "name": "Sandwichera grill Duo",
+          "emoji": "🥪",
+          "price": 699,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Sandwichera grill Duo. Una forma simple de renovar tu espacio y ahorrar tiempo.",
+          "stock": 20
+        },
+        {
+          "id": "plancha",
+          "name": "Plancha de vapor SteamGo",
+          "emoji": "👔",
+          "price": 849,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Plancha de vapor SteamGo. Una ayuda práctica para hacer más sencilla tu rutina en casa.",
+          "stock": 20
+        },
+        {
+          "id": "purificador",
+          "name": "Purificador de aire PureHome",
+          "emoji": "🌬️",
+          "price": 2899,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Purificador de aire PureHome. Diseño funcional y cómodo para el uso de todos los días.",
+          "stock": 20
+        },
+        {
+          "id": "batidora",
+          "name": "Batidora de mano MixPro",
+          "emoji": "🥣",
+          "price": 799,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Batidora de mano MixPro. Una forma simple de renovar tu espacio y ahorrar tiempo.",
+          "stock": 20
+        },
+        {
+          "id": "refrigerador",
+          "name": "Minirrefrigerador Fresh 90L",
+          "emoji": "🧊",
+          "price": 4299,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Minirrefrigerador Fresh 90L. Una ayuda práctica para hacer más sencilla tu rutina en casa.",
+          "stock": 20
+        },
+        {
+          "id": "procesador",
+          "name": "Procesador de alimentos MultiChef",
+          "emoji": "🥕",
+          "price": 1699,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Procesador de alimentos MultiChef. Diseño funcional y cómodo para el uso de todos los días.",
+          "stock": 20
+        },
+        {
+          "id": "aspiradora-robot",
+          "name": "Aspiradora robot SmartClean",
+          "emoji": "🤖",
+          "price": 3599,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Aspiradora robot SmartClean. Una forma simple de renovar tu espacio y ahorrar tiempo.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "computacion",
+      "name": "Computación",
+      "emoji": "💻",
+      "products": [
+        {
+          "id": "laptop",
+          "name": "Laptop Nova 14″ · 16 GB RAM",
+          "emoji": "💻",
+          "price": 16999,
+          "badge": "Top",
+          "rating": "4.9",
+          "reviews": 203,
+          "description": "Laptop Nova 14″ · 16 GB RAM. Una herramienta confiable para trabajar, estudiar o crear.",
+          "stock": 20
+        },
+        {
+          "id": "teclado",
+          "name": "Teclado mecánico RGB Nova",
+          "emoji": "⌨️",
+          "price": 1599,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 87,
+          "description": "Teclado mecánico RGB Nova. Diseñado para acompañar tus tareas diarias con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "mouse",
+          "name": "Mouse inalámbrico ergonómico",
+          "emoji": "🖱️",
+          "price": 699,
+          "badge": "Oferta",
+          "rating": "4.7",
+          "reviews": 156,
+          "description": "Mouse inalámbrico ergonómico. Conecta tus ideas con un equipo práctico y funcional.",
+          "stock": 20
+        },
+        {
+          "id": "monitor",
+          "name": "Monitor UltraView 27″ QHD",
+          "emoji": "🖥️",
+          "price": 6499,
+          "badge": "Nuevo",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Monitor UltraView 27″ QHD. Una herramienta confiable para trabajar, estudiar o crear.",
+          "stock": 20
+        },
+        {
+          "id": "pc-escritorio",
+          "name": "PC de escritorio Nova Core",
+          "emoji": "🖥️",
+          "price": 14999,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "PC de escritorio Nova Core. Diseñado para acompañar tus tareas diarias con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "webcam",
+          "name": "Webcam Full HD con micrófono",
+          "emoji": "📹",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Webcam Full HD con micrófono. Conecta tus ideas con un equipo práctico y funcional.",
+          "stock": 20
+        },
+        {
+          "id": "ssd",
+          "name": "SSD externo portátil 1 TB",
+          "emoji": "💾",
+          "price": 1799,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "SSD externo portátil 1 TB. Una herramienta confiable para trabajar, estudiar o crear.",
+          "stock": 20
+        },
+        {
+          "id": "hub-usbc",
+          "name": "Hub USB-C de 7 puertos",
+          "emoji": "🔌",
+          "price": 899,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Hub USB-C de 7 puertos. Diseñado para acompañar tus tareas diarias con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "router",
+          "name": "Router Wi-Fi 6 de doble banda",
+          "emoji": "📡",
+          "price": 1599,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Router Wi-Fi 6 de doble banda. Conecta tus ideas con un equipo práctico y funcional.",
+          "stock": 20
+        },
+        {
+          "id": "disco-externo",
+          "name": "Disco externo portátil 2 TB",
+          "emoji": "💽",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Disco externo portátil 2 TB. Una herramienta confiable para trabajar, estudiar o crear.",
+          "stock": 20
+        },
+        {
+          "id": "base-laptop",
+          "name": "Base ajustable para laptop",
+          "emoji": "💻",
+          "price": 649,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Base ajustable para laptop. Diseñado para acompañar tus tareas diarias con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "cooler-laptop",
+          "name": "Base enfriadora con ventiladores",
+          "emoji": "🌬️",
+          "price": 799,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Base enfriadora con ventiladores. Conecta tus ideas con un equipo práctico y funcional.",
+          "stock": 20
+        },
+        {
+          "id": "tableta-grafica",
+          "name": "Tableta gráfica SketchPad",
+          "emoji": "✍️",
+          "price": 2199,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Tableta gráfica SketchPad. Una herramienta confiable para trabajar, estudiar o crear.",
+          "stock": 20
+        },
+        {
+          "id": "microfono-usb",
+          "name": "Micrófono USB para streaming",
+          "emoji": "🎙️",
+          "price": 1399,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Micrófono USB para streaming. Diseñado para acompañar tus tareas diarias con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "memoria-usb",
+          "name": "Memoria USB-C de 256 GB",
+          "emoji": "🗂️",
+          "price": 499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Memoria USB-C de 256 GB. Conecta tus ideas con un equipo práctico y funcional.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "casa-smart",
+      "name": "Casa smart",
+      "emoji": "💡",
+      "products": [
+        {
+          "id": "foco-smart",
+          "name": "Foco inteligente Wi-Fi · Pack de 2",
+          "emoji": "💡",
+          "price": 499,
+          "badge": "Ahorra energía",
+          "rating": "4.8",
+          "reviews": 111,
+          "description": "Foco inteligente Wi-Fi · Pack de 2. Agrega comodidad y control inteligente a tu hogar.",
+          "stock": 20
+        },
+        {
+          "id": "camara",
+          "name": "Cámara interior Smart View",
+          "emoji": "📷",
+          "price": 1099,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 78,
+          "description": "Cámara interior Smart View. Una manera práctica de automatizar tu espacio.",
+          "stock": 20
+        },
+        {
+          "id": "enchufe",
+          "name": "Enchufe inteligente con medidor",
+          "emoji": "🔌",
+          "price": 349,
+          "badge": "Oferta",
+          "rating": "4.8",
+          "reviews": 143,
+          "description": "Enchufe inteligente con medidor. Conecta tus rutinas y disfruta una casa más cómoda.",
+          "stock": 20
+        },
+        {
+          "id": "asistente",
+          "name": "Asistente de voz Mini",
+          "emoji": "🗣️",
+          "price": 999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 55,
+          "description": "Asistente de voz Mini. Agrega comodidad y control inteligente a tu hogar.",
+          "stock": 20
+        },
+        {
+          "id": "sensor-puerta",
+          "name": "Sensor inteligente para puertas",
+          "emoji": "🚪",
+          "price": 399,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Sensor inteligente para puertas. Una manera práctica de automatizar tu espacio.",
+          "stock": 20
+        },
+        {
+          "id": "termostato",
+          "name": "Termostato inteligente HomeTemp",
+          "emoji": "🌡️",
+          "price": 1699,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Termostato inteligente HomeTemp. Conecta tus rutinas y disfruta una casa más cómoda.",
+          "stock": 20
+        },
+        {
+          "id": "tira-led",
+          "name": "Tira LED inteligente de 5 metros",
+          "emoji": "🌈",
+          "price": 699,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Tira LED inteligente de 5 metros. Agrega comodidad y control inteligente a tu hogar.",
+          "stock": 20
+        },
+        {
+          "id": "timbre-smart",
+          "name": "Timbre con cámara y Wi-Fi",
+          "emoji": "🔔",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Timbre con cámara y Wi-Fi. Una manera práctica de automatizar tu espacio.",
+          "stock": 20
+        },
+        {
+          "id": "sensor-movimiento",
+          "name": "Sensor de movimiento SmartSense",
+          "emoji": "👁️",
+          "price": 549,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Sensor de movimiento SmartSense. Conecta tus rutinas y disfruta una casa más cómoda.",
+          "stock": 20
+        },
+        {
+          "id": "cerradura",
+          "name": "Cerradura inteligente con teclado",
+          "emoji": "🔐",
+          "price": 2799,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Cerradura inteligente con teclado. Agrega comodidad y control inteligente a tu hogar.",
+          "stock": 20
+        },
+        {
+          "id": "sensor-fuga",
+          "name": "Detector inteligente de fugas de agua",
+          "emoji": "💧",
+          "price": 499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Detector inteligente de fugas de agua. Una manera práctica de automatizar tu espacio.",
+          "stock": 20
+        },
+        {
+          "id": "cortina-smart",
+          "name": "Control inteligente para cortinas",
+          "emoji": "🪟",
+          "price": 1499,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Control inteligente para cortinas. Conecta tus rutinas y disfruta una casa más cómoda.",
+          "stock": 20
+        },
+        {
+          "id": "estacion-clima",
+          "name": "Estación meteorológica conectada",
+          "emoji": "⛅",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Estación meteorológica conectada. Agrega comodidad y control inteligente a tu hogar.",
+          "stock": 20
+        },
+        {
+          "id": "hub-smart",
+          "name": "Hub central para casa inteligente",
+          "emoji": "📶",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Hub central para casa inteligente. Una manera práctica de automatizar tu espacio.",
+          "stock": 20
+        },
+        {
+          "id": "alarma-smart",
+          "name": "Alarma inalámbrica para el hogar",
+          "emoji": "🚨",
+          "price": 2199,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Alarma inalámbrica para el hogar. Conecta tus rutinas y disfruta una casa más cómoda.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "telefonos",
+      "name": "Teléfonos",
+      "emoji": "📱",
+      "products": [
+        {
+          "id": "smartphone",
+          "name": "Smartphone Nova X · 256 GB",
+          "emoji": "📱",
+          "price": 12999,
+          "badge": "Nuevo",
+          "rating": "4.9",
+          "reviews": 167,
+          "description": "Smartphone Nova X · 256 GB. Accesorio práctico para acompañarte en casa y donde vayas.",
+          "stock": 20
+        },
+        {
+          "id": "cargador",
+          "name": "Cargador rápido USB-C 30 W",
+          "emoji": "🔋",
+          "price": 549,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 210,
+          "description": "Cargador rápido USB-C 30 W. Mantén tu teléfono listo y protegido durante el día.",
+          "stock": 20
+        },
+        {
+          "id": "funda",
+          "name": "Funda protectora Crystal",
+          "emoji": "🛡️",
+          "price": 399,
+          "badge": "Oferta",
+          "rating": "4.6",
+          "reviews": 93,
+          "description": "Funda protectora Crystal. Diseño compacto pensado para el uso cotidiano.",
+          "stock": 20
+        },
+        {
+          "id": "powerbank",
+          "name": "Batería portátil 20,000 mAh",
+          "emoji": "🔋",
+          "price": 899,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 122,
+          "description": "Batería portátil 20,000 mAh. Accesorio práctico para acompañarte en casa y donde vayas.",
+          "stock": 20
+        },
+        {
+          "id": "smartphone-mini",
+          "name": "Smartphone Nova Mini · 128 GB",
+          "emoji": "📱",
+          "price": 8999,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Smartphone Nova Mini · 128 GB. Mantén tu teléfono listo y protegido durante el día.",
+          "stock": 20
+        },
+        {
+          "id": "smartphone-plus",
+          "name": "Smartphone Nova Plus · 512 GB",
+          "emoji": "📱",
+          "price": 15999,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Smartphone Nova Plus · 512 GB. Diseño compacto pensado para el uso cotidiano.",
+          "stock": 20
+        },
+        {
+          "id": "telefono-resistente",
+          "name": "Teléfono resistente Trail X",
+          "emoji": "📱",
+          "price": 7499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Teléfono resistente Trail X. Accesorio práctico para acompañarte en casa y donde vayas.",
+          "stock": 20
+        },
+        {
+          "id": "telefono-basico",
+          "name": "Teléfono práctico Everyday",
+          "emoji": "📞",
+          "price": 1999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Teléfono práctico Everyday. Mantén tu teléfono listo y protegido durante el día.",
+          "stock": 20
+        },
+        {
+          "id": "cargador-inalambrico",
+          "name": "Base de carga inalámbrica Qi",
+          "emoji": "🔋",
+          "price": 799,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Base de carga inalámbrica Qi. Diseño compacto pensado para el uso cotidiano.",
+          "stock": 20
+        },
+        {
+          "id": "cargador-auto",
+          "name": "Cargador USB-C para automóvil",
+          "emoji": "🚘",
+          "price": 399,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Cargador USB-C para automóvil. Accesorio práctico para acompañarte en casa y donde vayas.",
+          "stock": 20
+        },
+        {
+          "id": "protector-pantalla",
+          "name": "Protector de pantalla reforzado",
+          "emoji": "🛡️",
+          "price": 249,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Protector de pantalla reforzado. Mantén tu teléfono listo y protegido durante el día.",
+          "stock": 20
+        },
+        {
+          "id": "soporte-auto",
+          "name": "Soporte magnético para automóvil",
+          "emoji": "🚗",
+          "price": 349,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Soporte magnético para automóvil. Diseño compacto pensado para el uso cotidiano.",
+          "stock": 20
+        },
+        {
+          "id": "selfie-stick",
+          "name": "Palo selfie Bluetooth extensible",
+          "emoji": "🤳",
+          "price": 499,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Palo selfie Bluetooth extensible. Accesorio práctico para acompañarte en casa y donde vayas.",
+          "stock": 20
+        },
+        {
+          "id": "adaptador-audio",
+          "name": "Adaptador USB-C a audio",
+          "emoji": "🎵",
+          "price": 299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Adaptador USB-C a audio. Mantén tu teléfono listo y protegido durante el día.",
+          "stock": 20
+        },
+        {
+          "id": "tripie-telefono",
+          "name": "Tripié compacto para teléfono",
+          "emoji": "📸",
+          "price": 599,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Tripié compacto para teléfono. Diseño compacto pensado para el uso cotidiano.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "audifonos",
+      "name": "Audífonos",
+      "emoji": "🎧",
+      "products": [
+        {
+          "id": "audifonos-pro",
+          "name": "Audífonos inalámbricos Wave Pro",
+          "emoji": "🎧",
+          "price": 2499,
+          "badge": "Más vendido",
+          "rating": "4.9",
+          "reviews": 184,
+          "description": "Audífonos inalámbricos Wave Pro. Disfruta tu música, llamadas y contenido con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-sport",
+          "name": "Audífonos deportivos Flex",
+          "emoji": "🎵",
+          "price": 999,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 98,
+          "description": "Audífonos deportivos Flex. Una opción versátil para escuchar en casa o al salir.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-studio",
+          "name": "Audífonos Studio con cancelación",
+          "emoji": "🎧",
+          "price": 3899,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 72,
+          "description": "Audífonos Studio con cancelación. Diseñados para acompañar tus sesiones favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-kids",
+          "name": "Audífonos Kids seguros",
+          "emoji": "🎶",
+          "price": 649,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 61,
+          "description": "Audífonos Kids seguros. Disfruta tu música, llamadas y contenido con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "earbuds-air",
+          "name": "Audífonos True Wireless Air",
+          "emoji": "🎧",
+          "price": 1599,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Audífonos True Wireless Air. Una opción versátil para escuchar en casa o al salir.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-cable",
+          "name": "Audífonos con cable Studio Basic",
+          "emoji": "🎵",
+          "price": 399,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Audífonos con cable Studio Basic. Diseñados para acompañar tus sesiones favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "headset-gamer",
+          "name": "Headset gamer con micrófono",
+          "emoji": "🎮",
+          "price": 1799,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Headset gamer con micrófono. Disfruta tu música, llamadas y contenido con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-overear",
+          "name": "Audífonos over-ear Comfort",
+          "emoji": "🎧",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Audífonos over-ear Comfort. Una opción versátil para escuchar en casa o al salir.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-bass",
+          "name": "Audífonos Bass Boost inalámbricos",
+          "emoji": "🔊",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Audífonos Bass Boost inalámbricos. Diseñados para acompañar tus sesiones favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-viaje",
+          "name": "Audífonos de viaje con estuche",
+          "emoji": "✈️",
+          "price": 1499,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Audífonos de viaje con estuche. Disfruta tu música, llamadas y contenido con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-open",
+          "name": "Audífonos deportivos Open Fit",
+          "emoji": "🏃",
+          "price": 1399,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Audífonos deportivos Open Fit. Una opción versátil para escuchar en casa o al salir.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-usbc",
+          "name": "Audífonos USB-C con micrófono",
+          "emoji": "🎙️",
+          "price": 549,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Audífonos USB-C con micrófono. Diseñados para acompañar tus sesiones favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-mic",
+          "name": "Diadema con micrófono para llamadas",
+          "emoji": "💬",
+          "price": 899,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Diadema con micrófono para llamadas. Disfruta tu música, llamadas y contenido con comodidad.",
+          "stock": 20
+        },
+        {
+          "id": "audifonos-karaoke",
+          "name": "Audífonos inalámbricos para niños",
+          "emoji": "🎶",
+          "price": 699,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Audífonos inalámbricos para niños. Una opción versátil para escuchar en casa o al salir.",
+          "stock": 20
+        },
+        {
+          "id": "adaptador-bluetooth",
+          "name": "Adaptador Bluetooth de audio",
+          "emoji": "📶",
+          "price": 449,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Adaptador Bluetooth de audio. Diseñados para acompañar tus sesiones favoritas.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "bocinas",
+      "name": "Bocinas",
+      "emoji": "🔊",
+      "products": [
+        {
+          "id": "bocina-portatil",
+          "name": "Bocina portátil Pulse Mini",
+          "emoji": "🔊",
+          "price": 1299,
+          "badge": "Favorito",
+          "rating": "4.8",
+          "reviews": 136,
+          "description": "Bocina portátil Pulse Mini. Llena tu espacio de música para cada momento.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-fiesta",
+          "name": "Bocina PartyBoom resistente al agua",
+          "emoji": "🎶",
+          "price": 2799,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 84,
+          "description": "Bocina PartyBoom resistente al agua. Sonido práctico para compartir en casa o al aire libre.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-smart",
+          "name": "Bocina inteligente HomePod",
+          "emoji": "📻",
+          "price": 1899,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 67,
+          "description": "Bocina inteligente HomePod. Lleva tus canciones favoritas contigo.",
+          "stock": 20
+        },
+        {
+          "id": "soundbar",
+          "name": "Barra de sonido Cinema 2.1",
+          "emoji": "📢",
+          "price": 3199,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 49,
+          "description": "Barra de sonido Cinema 2.1. Llena tu espacio de música para cada momento.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-pocket",
+          "name": "Bocina Bluetooth Pocket",
+          "emoji": "🔈",
+          "price": 599,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Bocina Bluetooth Pocket. Sonido práctico para compartir en casa o al aire libre.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-bass",
+          "name": "Bocina portátil BassBox",
+          "emoji": "🔊",
+          "price": 1699,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Bocina portátil BassBox. Lleva tus canciones favoritas contigo.",
+          "stock": 20
+        },
+        {
+          "id": "torre-sonido",
+          "name": "Torre de sonido Party Tower",
+          "emoji": "🎵",
+          "price": 3999,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Torre de sonido Party Tower. Llena tu espacio de música para cada momento.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-pair",
+          "name": "Par de bocinas estéreo para escritorio",
+          "emoji": "🔉",
+          "price": 1499,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Par de bocinas estéreo para escritorio. Sonido práctico para compartir en casa o al aire libre.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-outdoor",
+          "name": "Bocina Outdoor resistente al agua",
+          "emoji": "🏕️",
+          "price": 2199,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Bocina Outdoor resistente al agua. Lleva tus canciones favoritas contigo.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-karaoke",
+          "name": "Bocina karaoke con micrófono",
+          "emoji": "🎤",
+          "price": 2499,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Bocina karaoke con micrófono. Llena tu espacio de música para cada momento.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-usb",
+          "name": "Bocina USB compacta para PC",
+          "emoji": "🖥️",
+          "price": 499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Bocina USB compacta para PC. Sonido práctico para compartir en casa o al aire libre.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-bateria",
+          "name": "Bocina recargable SoundGo",
+          "emoji": "🔋",
+          "price": 999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Bocina recargable SoundGo. Lleva tus canciones favoritas contigo.",
+          "stock": 20
+        },
+        {
+          "id": "subwoofer",
+          "name": "Subwoofer compacto para sala",
+          "emoji": "📢",
+          "price": 2799,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Subwoofer compacto para sala. Llena tu espacio de música para cada momento.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-multiroom",
+          "name": "Bocina Wi-Fi para varias habitaciones",
+          "emoji": "🏡",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Bocina Wi-Fi para varias habitaciones. Sonido práctico para compartir en casa o al aire libre.",
+          "stock": 20
+        },
+        {
+          "id": "bocina-retro",
+          "name": "Bocina portátil estilo retro",
+          "emoji": "📻",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Bocina portátil estilo retro. Lleva tus canciones favoritas contigo.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "juguetes",
+      "name": "Juguetes",
+      "emoji": "🧸",
+      "products": [
+        {
+          "id": "robot",
+          "name": "Robot programable RoboLab",
+          "emoji": "🤖",
+          "price": 1499,
+          "badge": "Aprende jugando",
+          "rating": "4.9",
+          "reviews": 57,
+          "description": "Robot programable RoboLab. Invita a explorar, crear y aprender jugando.",
+          "stock": 20
+        },
+        {
+          "id": "dron-kids",
+          "name": "Mini dron Explorer para principiantes",
+          "emoji": "🚁",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 44,
+          "description": "Mini dron Explorer para principiantes. Una opción entretenida para despertar la imaginación.",
+          "stock": 20
+        },
+        {
+          "id": "kit-ciencia",
+          "name": "Kit de ciencia y experimentos",
+          "emoji": "🧪",
+          "price": 799,
+          "badge": "Favorito",
+          "rating": "4.8",
+          "reviews": 73,
+          "description": "Kit de ciencia y experimentos. Diversión interactiva para compartir y descubrir.",
+          "stock": 20
+        },
+        {
+          "id": "carro-rc",
+          "name": "Auto a control remoto Turbo",
+          "emoji": "🏎️",
+          "price": 899,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 68,
+          "description": "Auto a control remoto Turbo. Invita a explorar, crear y aprender jugando.",
+          "stock": 20
+        },
+        {
+          "id": "robot-ciencia",
+          "name": "Robot educativo CodeBuddy",
+          "emoji": "🤖",
+          "price": 1699,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Robot educativo CodeBuddy. Una opción entretenida para despertar la imaginación.",
+          "stock": 20
+        },
+        {
+          "id": "dron-mini",
+          "name": "Mini dron con cámara para principiantes",
+          "emoji": "🚁",
+          "price": 1599,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Mini dron con cámara para principiantes. Diversión interactiva para compartir y descubrir.",
+          "stock": 20
+        },
+        {
+          "id": "microscopio",
+          "name": "Microscopio digital para pequeños",
+          "emoji": "🔬",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Microscopio digital para pequeños. Invita a explorar, crear y aprender jugando.",
+          "stock": 20
+        },
+        {
+          "id": "peluche-interactivo",
+          "name": "Peluche interactivo con sonidos",
+          "emoji": "🧸",
+          "price": 899,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Peluche interactivo con sonidos. Una opción entretenida para despertar la imaginación.",
+          "stock": 20
+        },
+        {
+          "id": "auto-terreno",
+          "name": "Auto RC todo terreno",
+          "emoji": "🏎️",
+          "price": 1399,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Auto RC todo terreno. Diversión interactiva para compartir y descubrir.",
+          "stock": 20
+        },
+        {
+          "id": "globo-interactivo",
+          "name": "Globo terráqueo interactivo",
+          "emoji": "🌎",
+          "price": 1499,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Globo terráqueo interactivo. Invita a explorar, crear y aprender jugando.",
+          "stock": 20
+        },
+        {
+          "id": "bloques-electronicos",
+          "name": "Kit de construcción electrónica",
+          "emoji": "🧩",
+          "price": 999,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Kit de construcción electrónica. Una opción entretenida para despertar la imaginación.",
+          "stock": 20
+        },
+        {
+          "id": "tableta-dibujo",
+          "name": "Tableta LCD para dibujar",
+          "emoji": "🎨",
+          "price": 499,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Tableta LCD para dibujar. Diversión interactiva para compartir y descubrir.",
+          "stock": 20
+        },
+        {
+          "id": "barco-rc",
+          "name": "Barco a control remoto Splash",
+          "emoji": "🚤",
+          "price": 1099,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Barco a control remoto Splash. Invita a explorar, crear y aprender jugando.",
+          "stock": 20
+        },
+        {
+          "id": "tren-smart",
+          "name": "Tren inteligente programable",
+          "emoji": "🚂",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Tren inteligente programable. Una opción entretenida para despertar la imaginación.",
+          "stock": 20
+        },
+        {
+          "id": "camara-infantil",
+          "name": "Cámara digital infantil",
+          "emoji": "📷",
+          "price": 799,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Cámara digital infantil. Diversión interactiva para compartir y descubrir.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "videojuegos",
+      "name": "Videojuegos",
+      "emoji": "🕹️",
+      "products": [
+        {
+          "id": "aventura",
+          "name": "Aventura Galáctica · Edición física",
+          "emoji": "🚀",
+          "price": 1199,
+          "badge": "Lanzamiento",
+          "rating": "4.9",
+          "reviews": 105,
+          "description": "Aventura Galáctica · Edición física. Una aventura para disfrutar en tus momentos de juego.",
+          "stock": 20
+        },
+        {
+          "id": "deportes",
+          "name": "Liga Total 2025 · Juego deportivo",
+          "emoji": "⚽",
+          "price": 999,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 81,
+          "description": "Liga Total 2025 · Juego deportivo. Explora nuevos mundos y reta tus habilidades.",
+          "stock": 20
+        },
+        {
+          "id": "racing",
+          "name": "Velocidad Extrema · Edición deluxe",
+          "emoji": "🏁",
+          "price": 1399,
+          "badge": "Oferta",
+          "rating": "4.8",
+          "reviews": 64,
+          "description": "Velocidad Extrema · Edición deluxe. Diversión para jugar a tu ritmo o compartir.",
+          "stock": 20
+        },
+        {
+          "id": "indie",
+          "name": "Mundos Pixel · Colección indie",
+          "emoji": "👾",
+          "price": 749,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 92,
+          "description": "Mundos Pixel · Colección indie. Una aventura para disfrutar en tus momentos de juego.",
+          "stock": 20
+        },
+        {
+          "id": "misterio-pixel",
+          "name": "Misterio Pixel · Aventura interactiva",
+          "emoji": "🕵️",
+          "price": 899,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Misterio Pixel · Aventura interactiva. Explora nuevos mundos y reta tus habilidades.",
+          "stock": 20
+        },
+        {
+          "id": "carreras-neon",
+          "name": "Carreras Neón · Competencia arcade",
+          "emoji": "🏎️",
+          "price": 1099,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Carreras Neón · Competencia arcade. Diversión para jugar a tu ritmo o compartir.",
+          "stock": 20
+        },
+        {
+          "id": "reinos-fantasia",
+          "name": "Reinos de Fantasía · RPG",
+          "emoji": "🐉",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Reinos de Fantasía · RPG. Una aventura para disfrutar en tus momentos de juego.",
+          "stock": 20
+        },
+        {
+          "id": "isla-coop",
+          "name": "Isla Cooperativa · Juego familiar",
+          "emoji": "🏝️",
+          "price": 999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Isla Cooperativa · Juego familiar. Explora nuevos mundos y reta tus habilidades.",
+          "stock": 20
+        },
+        {
+          "id": "ritmo-total",
+          "name": "Ritmo Total · Edición musical",
+          "emoji": "🎸",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Ritmo Total · Edición musical. Diversión para jugar a tu ritmo o compartir.",
+          "stock": 20
+        },
+        {
+          "id": "estrategia-galactica",
+          "name": "Frontera Galáctica · Estrategia",
+          "emoji": "🌌",
+          "price": 1099,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Frontera Galáctica · Estrategia. Una aventura para disfrutar en tus momentos de juego.",
+          "stock": 20
+        },
+        {
+          "id": "plataformas",
+          "name": "Salto Estelar · Plataformas",
+          "emoji": "⭐",
+          "price": 849,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Salto Estelar · Plataformas. Explora nuevos mundos y reta tus habilidades.",
+          "stock": 20
+        },
+        {
+          "id": "deportes-extremos",
+          "name": "Deportes Extremos · Acción",
+          "emoji": "🛹",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Deportes Extremos · Acción. Diversión para jugar a tu ritmo o compartir.",
+          "stock": 20
+        },
+        {
+          "id": "simulador-ciudad",
+          "name": "Mi Ciudad · Simulador creativo",
+          "emoji": "🏙️",
+          "price": 949,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Mi Ciudad · Simulador creativo. Una aventura para disfrutar en tus momentos de juego.",
+          "stock": 20
+        },
+        {
+          "id": "aventura-submarina",
+          "name": "Aventura Submarina · Exploración",
+          "emoji": "🐠",
+          "price": 899,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Aventura Submarina · Exploración. Explora nuevos mundos y reta tus habilidades.",
+          "stock": 20
+        },
+        {
+          "id": "coleccion-retro",
+          "name": "Colección Retro Arcade",
+          "emoji": "👾",
+          "price": 799,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Colección Retro Arcade. Diversión para jugar a tu ritmo o compartir.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "consolas",
+      "name": "Consolas",
+      "emoji": "🎮",
+      "products": [
+        {
+          "id": "consola-nova",
+          "name": "Consola Nova Play · 1 TB",
+          "emoji": "🎮",
+          "price": 11999,
+          "badge": "Top",
+          "rating": "4.9",
+          "reviews": 178,
+          "description": "Consola Nova Play · 1 TB. Disfruta tus juegos favoritos en casa o donde quieras.",
+          "stock": 20
+        },
+        {
+          "id": "consola-portatil",
+          "name": "Consola portátil PocketPlay",
+          "emoji": "🕹️",
+          "price": 6999,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 97,
+          "description": "Consola portátil PocketPlay. Una plataforma versátil para jugar y compartir.",
+          "stock": 20
+        },
+        {
+          "id": "consola-retro",
+          "name": "Consola retro Arcade Mini",
+          "emoji": "👾",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 53,
+          "description": "Consola retro Arcade Mini. Prepárate para nuevas aventuras y experiencias.",
+          "stock": 20
+        },
+        {
+          "id": "consola-familiar",
+          "name": "Consola familiar Motion Fun",
+          "emoji": "🎯",
+          "price": 8499,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Consola familiar Motion Fun. Disfruta tus juegos favoritos en casa o donde quieras.",
+          "stock": 20
+        },
+        {
+          "id": "consola-nova-digital",
+          "name": "Nova Play Digital · 1 TB",
+          "emoji": "🎮",
+          "price": 10999,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Nova Play Digital · 1 TB. Una plataforma versátil para jugar y compartir.",
+          "stock": 20
+        },
+        {
+          "id": "consola-handheld",
+          "name": "PocketPlay OLED portátil",
+          "emoji": "🕹️",
+          "price": 7999,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "PocketPlay OLED portátil. Prepárate para nuevas aventuras y experiencias.",
+          "stock": 20
+        },
+        {
+          "id": "consola-retro-pro",
+          "name": "Arcade Mini Retro · 300 juegos",
+          "emoji": "👾",
+          "price": 2299,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Arcade Mini Retro · 300 juegos. Disfruta tus juegos favoritos en casa o donde quieras.",
+          "stock": 20
+        },
+        {
+          "id": "consola-familiar-pro",
+          "name": "Motion Fun · Kit familiar",
+          "emoji": "🎯",
+          "price": 8999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Motion Fun · Kit familiar. Una plataforma versátil para jugar y compartir.",
+          "stock": 20
+        },
+        {
+          "id": "consola-stream",
+          "name": "Consola Stream Box 4K",
+          "emoji": "📺",
+          "price": 4999,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Consola Stream Box 4K. Prepárate para nuevas aventuras y experiencias.",
+          "stock": 20
+        },
+        {
+          "id": "consola-compacta",
+          "name": "Nova Play Compact · 512 GB",
+          "emoji": "🎮",
+          "price": 8999,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Nova Play Compact · 512 GB. Disfruta tus juegos favoritos en casa o donde quieras.",
+          "stock": 20
+        },
+        {
+          "id": "consola-portatil-lite",
+          "name": "PocketPlay Lite portátil",
+          "emoji": "🎮",
+          "price": 5499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "PocketPlay Lite portátil. Una plataforma versátil para jugar y compartir.",
+          "stock": 20
+        },
+        {
+          "id": "consola-arcade",
+          "name": "Arcade Station sobremesa",
+          "emoji": "🕹️",
+          "price": 3499,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Arcade Station sobremesa. Prepárate para nuevas aventuras y experiencias.",
+          "stock": 20
+        },
+        {
+          "id": "consola-retro-pocket",
+          "name": "Retro Pocket portátil",
+          "emoji": "👾",
+          "price": 1699,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Retro Pocket portátil. Disfruta tus juegos favoritos en casa o donde quieras.",
+          "stock": 20
+        },
+        {
+          "id": "consola-fitness",
+          "name": "Motion Fun Fitness Edition",
+          "emoji": "🏃",
+          "price": 9299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Motion Fun Fitness Edition. Una plataforma versátil para jugar y compartir.",
+          "stock": 20
+        },
+        {
+          "id": "consola-bundle",
+          "name": "Nova Play con juego incluido",
+          "emoji": "🎁",
+          "price": 12499,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Nova Play con juego incluido. Prepárate para nuevas aventuras y experiencias.",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "controles",
+      "name": "Controles",
+      "emoji": "🕹️",
+      "products": [
+        {
+          "id": "control-wireless",
+          "name": "Control inalámbrico Nova Pro",
+          "emoji": "🎮",
+          "price": 1499,
+          "badge": "Más vendido",
+          "rating": "4.9",
+          "reviews": 132,
+          "description": "Control inalámbrico Nova Pro. Agarre cómodo y respuesta para tus sesiones de juego.",
+          "stock": 20
+        },
+        {
+          "id": "control-pc",
+          "name": "Control universal para PC",
+          "emoji": "🕹️",
+          "price": 899,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 86,
+          "description": "Control universal para PC. Una forma práctica de jugar en tus plataformas favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "control-retro",
+          "name": "Control arcade Retro Stick",
+          "emoji": "👾",
+          "price": 1299,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 47,
+          "description": "Control arcade Retro Stick. Control preciso para disfrutar cada partida.",
+          "stock": 20
+        },
+        {
+          "id": "control-kids",
+          "name": "Control compacto para juegos",
+          "emoji": "🎯",
+          "price": 699,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 39,
+          "description": "Control compacto para juegos. Agarre cómodo y respuesta para tus sesiones de juego.",
+          "stock": 20
+        },
+        {
+          "id": "control-blanco",
+          "name": "Control inalámbrico Nova · Blanco",
+          "emoji": "🎮",
+          "price": 1399,
+          "badge": "Nuevo",
+          "rating": "4.8",
+          "reviews": 28,
+          "description": "Control inalámbrico Nova · Blanco. Una forma práctica de jugar en tus plataformas favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "control-elite",
+          "name": "Control Nova Elite con palancas",
+          "emoji": "🕹️",
+          "price": 2299,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 45,
+          "description": "Control Nova Elite con palancas. Control preciso para disfrutar cada partida.",
+          "stock": 20
+        },
+        {
+          "id": "control-usb",
+          "name": "Control USB para computadora",
+          "emoji": "🎮",
+          "price": 599,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 62,
+          "description": "Control USB para computadora. Agarre cómodo y respuesta para tus sesiones de juego.",
+          "stock": 20
+        },
+        {
+          "id": "volante",
+          "name": "Volante de carreras con pedales",
+          "emoji": "🏁",
+          "price": 3499,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 79,
+          "description": "Volante de carreras con pedales. Una forma práctica de jugar en tus plataformas favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "fight-stick",
+          "name": "Arcade Fight Stick USB",
+          "emoji": "👾",
+          "price": 1899,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 96,
+          "description": "Arcade Fight Stick USB. Control preciso para disfrutar cada partida.",
+          "stock": 20
+        },
+        {
+          "id": "control-movil",
+          "name": "Control telescópico para móvil",
+          "emoji": "📱",
+          "price": 1199,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 113,
+          "description": "Control telescópico para móvil. Agarre cómodo y respuesta para tus sesiones de juego.",
+          "stock": 20
+        },
+        {
+          "id": "base-carga",
+          "name": "Base de carga doble para controles",
+          "emoji": "🔋",
+          "price": 699,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 130,
+          "description": "Base de carga doble para controles. Una forma práctica de jugar en tus plataformas favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "control-inalambrico-pc",
+          "name": "Control inalámbrico para PC",
+          "emoji": "🕹️",
+          "price": 999,
+          "badge": "",
+          "rating": "4.6",
+          "reviews": 147,
+          "description": "Control inalámbrico para PC. Control preciso para disfrutar cada partida.",
+          "stock": 20
+        },
+        {
+          "id": "control-compacto",
+          "name": "Control compacto Bluetooth",
+          "emoji": "🎮",
+          "price": 849,
+          "badge": "",
+          "rating": "4.8",
+          "reviews": 44,
+          "description": "Control compacto Bluetooth. Agarre cómodo y respuesta para tus sesiones de juego.",
+          "stock": 20
+        },
+        {
+          "id": "palanca-arcade",
+          "name": "Palanca arcade con botones",
+          "emoji": "🕹️",
+          "price": 1499,
+          "badge": "",
+          "rating": "4.7",
+          "reviews": 61,
+          "description": "Palanca arcade con botones. Una forma práctica de jugar en tus plataformas favoritas.",
+          "stock": 20
+        },
+        {
+          "id": "control-accesible",
+          "name": "Control adaptable de fácil agarre",
+          "emoji": "♿",
+          "price": 1299,
+          "badge": "",
+          "rating": "4.9",
+          "reviews": 78,
+          "description": "Control adaptable de fácil agarre. Control preciso para disfrutar cada partida.",
+          "stock": 20
+        }
+      ]
+    }
+  ],
+  "specificationProfiles": {
+    "electrodomesticos": [
+      [
+        "Uso recomendado",
+        "Hogar"
+      ],
+      [
+        "Alimentación",
+        "Eléctrica (consultar modelo)"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "computacion": [
+      [
+        "Uso recomendado",
+        "Casa u oficina"
+      ],
+      [
+        "Conexión",
+        "Consultar puertos y compatibilidad del modelo"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "casa-smart": [
+      [
+        "Conectividad",
+        "Wi-Fi o Bluetooth, según el modelo"
+      ],
+      [
+        "Compatibilidad",
+        "Revisar app y ecosistema compatible"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "telefonos": [
+      [
+        "Compatibilidad",
+        "Verificar modelo y puerto del dispositivo"
+      ],
+      [
+        "Uso",
+        "Accesorio para teléfono móvil"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "audifonos": [
+      [
+        "Conexión",
+        "Bluetooth o cable, según el modelo"
+      ],
+      [
+        "Uso recomendado",
+        "Música, llamadas o entretenimiento"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "bocinas": [
+      [
+        "Conexión",
+        "Bluetooth, Wi-Fi o cable, según el modelo"
+      ],
+      [
+        "Uso recomendado",
+        "Interior o exterior, según el modelo"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "juguetes": [
+      [
+        "Uso recomendado",
+        "Revisar edad sugerida en el empaque"
+      ],
+      [
+        "Alimentación",
+        "Consultar si incluye baterías o cargador"
+      ],
+      [
+        "Garantía",
+        "Consultar condiciones del fabricante"
+      ]
+    ],
+    "videojuegos": [
+      [
+        "Formato",
+        "Físico o digital, según edición"
+      ],
+      [
+        "Compatibilidad",
+        "Confirmar plataforma antes de comprar"
+      ],
+      [
+        "Idioma y edad",
+        "Consultar clasificación del título"
+      ]
+    ],
+    "consolas": [
+      [
+        "Almacenamiento y puertos",
+        "Varían según el modelo"
+      ],
+      [
+        "Conectividad",
+        "Consultar especificaciones del fabricante"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ],
+    "controles": [
+      [
+        "Conexión",
+        "USB o inalámbrica, según el modelo"
+      ],
+      [
+        "Compatibilidad",
+        "Confirmar plataforma y sistema operativo"
+      ],
+      [
+        "Garantía",
+        "12 meses, referencial"
+      ]
+    ]
+  }
+}

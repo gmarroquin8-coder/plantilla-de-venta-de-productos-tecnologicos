@@ -37,6 +37,15 @@
           </svg>
           <span class="button-label">Mi cuenta</span>
         </a>
+        <button class="header-button" id="orders-button" type="button" aria-label="Ver mis pedidos">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <span class="button-label">Mis pedidos</span>
+        </button>
+        <a class="header-button" id="admin-link" href="/admin.html" aria-label="Administrar productos" hidden>
+          <span class="button-label">Administración</span>
+        </a>
         <button class="header-button" id="cart-button" type="button" aria-expanded="false" aria-controls="cart-panel">
           <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
@@ -142,8 +151,53 @@
     <div class="cart-footer">
       <div class="cart-total"><span>Total</span><span id="cart-total">$0.00</span></div>
       <button class="checkout-button" id="checkout-button" type="button">Continuar compra</button>
+      <p class="inventory-note">Existencias y precios ilustrativos. No se procesan pagos.</p>
     </div>
   </aside>
+  <dialog class="spec-dialog checkout-dialog" id="checkout-dialog" aria-labelledby="checkout-title">
+    <div class="spec-dialog-inner">
+      <div class="spec-dialog-header">
+        <div>
+          <p class="spec-kicker">Pedido de demostración</p>
+          <h2 id="checkout-title">Datos de entrega</h2>
+        </div>
+        <button class="spec-close" id="close-checkout" type="button" aria-label="Cerrar pedido">×</button>
+      </div>
+      <form id="checkout-form">
+        <label class="checkout-field">
+          Nombre de quien recibe
+          <input name="name" type="text" maxlength="100" autocomplete="name" required>
+        </label>
+        <label class="checkout-field">
+          Teléfono de contacto
+          <input name="phone" type="tel" minlength="7" maxlength="30" pattern="[0-9+(). -]{7,30}" autocomplete="tel" required>
+        </label>
+        <label class="checkout-field">
+          Dirección de entrega
+          <textarea name="address" minlength="10" maxlength="300" autocomplete="street-address" rows="3" required></textarea>
+        </label>
+        <p class="checkout-disclaimer">El pedido quedará pendiente. No se realizará ningún pago.</p>
+        <p class="checkout-message" id="checkout-message" role="alert" hidden></p>
+        <button class="checkout-button" type="submit">Crear pedido</button>
+      </form>
+      <section id="checkout-success" class="checkout-success" aria-live="polite" hidden>
+        <p id="checkout-success-message"></p>
+        <button class="checkout-button" id="success-view-orders" type="button">Ver mis pedidos</button>
+      </section>
+    </div>
+  </dialog>
+  <dialog class="spec-dialog orders-dialog" id="orders-dialog" aria-labelledby="orders-title">
+    <div class="spec-dialog-inner">
+      <div class="spec-dialog-header">
+        <div>
+          <p class="spec-kicker">Tu cuenta</p>
+          <h2 id="orders-title">Mis pedidos</h2>
+        </div>
+        <button class="spec-close" id="close-orders" type="button" aria-label="Cerrar pedidos">×</button>
+      </div>
+      <div id="orders-list" class="orders-list" aria-live="polite"></div>
+    </div>
+  </dialog>
   <dialog class="spec-dialog" id="spec-dialog" aria-labelledby="spec-title">
     <div class="spec-dialog-inner">
       <div class="spec-dialog-header">

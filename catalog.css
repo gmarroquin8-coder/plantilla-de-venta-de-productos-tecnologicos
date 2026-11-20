@@ -125,6 +125,12 @@
       -webkit-line-clamp: 3;
     }
 
+    .product-stock {
+      margin: 8px 0 0;
+      color: #626c7d;
+      font-size: 0.72rem;
+    }
+
     .rating {
       margin: 9px 0 13px;
       color: #8b5a00;
@@ -194,6 +200,13 @@
     .add-button:hover {
       transform: scale(1.06);
       background: var(--purple-dark);
+    }
+
+    .add-button:disabled {
+      color: #71798a;
+      background: #e7e9ef;
+      cursor: not-allowed;
+      transform: none;
     }
 
     .pagination {
@@ -275,6 +288,11 @@
 
     .spec-dialog-inner {
       padding: 24px;
+    }
+
+    .checkout-dialog,
+    .orders-dialog {
+      overflow-y: auto;
     }
 
     .spec-dialog-header {
@@ -492,6 +510,124 @@
 
     .checkout-button:hover {
       background: var(--purple-dark);
+    }
+
+    .checkout-field {
+      display: grid;
+      gap: 6px;
+      margin-top: 15px;
+      color: #475166;
+      font-size: 0.84rem;
+      font-weight: 650;
+    }
+
+    .checkout-field input,
+    .checkout-field textarea {
+      width: 100%;
+      padding: 10px 11px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--ink);
+      background: #fff;
+      font: inherit;
+      font-weight: 400;
+    }
+
+    .checkout-field input:focus,
+    .checkout-field textarea:focus {
+      border-color: var(--purple);
+      outline: 2px solid rgb(103 80 255 / 18%);
+    }
+
+    .checkout-field textarea {
+      resize: vertical;
+    }
+
+    .checkout-disclaimer,
+    .inventory-note {
+      color: var(--muted);
+      font-size: 0.76rem;
+      line-height: 1.5;
+    }
+
+    .checkout-disclaimer {
+      margin: 15px 0;
+    }
+
+    .inventory-note {
+      margin: 10px 0 0;
+      text-align: center;
+    }
+
+    .checkout-message {
+      color: #a52d38;
+      font-size: 0.84rem;
+    }
+
+    .checkout-success {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .checkout-success[hidden] {
+      display: none;
+    }
+
+    .checkout-success p {
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .orders-list {
+      display: grid;
+      gap: 12px;
+      max-height: 55vh;
+      overflow-y: auto;
+      margin-top: 18px;
+    }
+
+    .order-card {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .order-card-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .order-status {
+      color: #79550a;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .order-date,
+    .order-total {
+      margin: 8px 0;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .order-items {
+      display: grid;
+      gap: 5px;
+      padding-left: 20px;
+      font-size: 0.82rem;
+    }
+
+    .order-total {
+      margin-bottom: 0;
+      color: var(--ink);
+      font-weight: 750;
+    }
+
+    .orders-empty {
+      color: var(--muted);
+      text-align: center;
     }
 
     .toast {

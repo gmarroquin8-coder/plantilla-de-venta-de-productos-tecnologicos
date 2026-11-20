@@ -1,11 +1,15 @@
 FROM node:22-alpine
 
 WORKDIR /app
+COPY api/package*.json ./api/
 
-COPY package*.json ./
+WORKDIR /app/api
 RUN npm ci --omit=dev
 
-COPY server.js ./
+COPY api/server.js api/database.js ./
+COPY api/test ./test
+COPY catalog.json ../catalog.json
+COPY database/init.sql ../database/init.sql
 
 USER node
 EXPOSE 3000
