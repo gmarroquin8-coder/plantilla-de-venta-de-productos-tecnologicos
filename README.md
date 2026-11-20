@@ -22,6 +22,13 @@ inicies sesión. Para detener los servicios, ejecuta
 Para mover el proyecto a otra computadora, copia esta carpeta y asegúrate de
 tener Docker Desktop (Windows/macOS) o Docker Engine y Compose (Linux).
 
+## Version y memoria del proyecto
+
+La versión inicial está identificada con el tag `v1.0.0`. Consulta
+[CHANGELOG.md](./CHANGELOG.md) para el historial de cambios y
+[PROJECT_MEMORY.md](./PROJECT_MEMORY.md) para el contexto y el estado pendiente
+del proyecto.
+
 ## Alcance de la demostración
 
 El catálogo y los precios son ilustrativos. El carrito se conserva en el
