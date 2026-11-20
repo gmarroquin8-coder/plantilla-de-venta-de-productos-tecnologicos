@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101522">
+  <title>Iniciar sesión</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <main class="login-card">
+    <div class="brand-mark" aria-hidden="true">N</div>
+    <h1 id="page-title">Bienvenido de nuevo</h1>
+    <p class="intro" id="page-intro">Inicia sesión para continuar en tu cuenta.</p>
+
+    <form id="login-form">
+      <div class="field">
+        <label for="email">Correo electrónico</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="tu@correo.com"
+          autocomplete="email"
+          required
+        >
+      </div>
+
+      <div class="field">
+        <label for="password">Contraseña</label>
+        <div class="password-wrap">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Ingresa tu contraseña"
+            autocomplete="current-password"
+            minlength="8"
+            required
+          >
+          <button
+            class="icon-button"
+            id="toggle-password"
+            type="button"
+            aria-label="Mostrar contraseña"
+            aria-pressed="false"
+          >
+            <svg id="eye-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M2.5 12s3.4-6 9.5-6 9.5 6 9.5 6-3.4 6-9.5 6-9.5-6-9.5-6Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="12" r="2.7" stroke="currentColor" stroke-width="1.7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="options">
+        <label class="remember" for="remember">
+          <input id="remember" name="remember" type="checkbox">
+          <span>Recordarme</span>
+        </label>
+        <button class="text-button" id="forgot-password" type="button">¿Olvidaste tu contraseña?</button>
+      </div>
+
+      <button class="submit-button" type="submit">Iniciar sesión</button>
+      <p class="message" id="form-message" role="status" aria-live="polite"></p>
+    </form>
+
+    <form id="register-form" hidden>
+      <div class="field">
+        <label for="register-name">Nombre</label>
+        <input
+          id="register-name"
+          name="name"
+          type="text"
+          placeholder="Tu nombre"
+          autocomplete="name"
+          maxlength="100"
+          required
+        >
+      </div>
+
+      <div class="field">
+        <label for="register-email">Correo electrónico</label>
+        <input
+          id="register-email"
+          name="email"
+          type="email"
+          placeholder="tu@correo.com"
+          autocomplete="email"
+          maxlength="254"
+          required
+        >
+      </div>
+
+      <div class="field">
+        <label for="register-password">Contraseña</label>
+        <input
+          id="register-password"
+          name="password"
+          type="password"
+          placeholder="Crea una contraseña"
+          autocomplete="new-password"
+          minlength="8"
+          required
+        >
+      </div>
+
+      <div class="field">
+        <label for="confirm-password">Confirmar contraseña</label>
+        <input
+          id="confirm-password"
+          name="confirm-password"
+          type="password"
+          placeholder="Repite la contraseña"
+          autocomplete="new-password"
+          minlength="8"
+          required
+        >
+      </div>
+
+      <button class="submit-button" type="submit">Crear cuenta</button>
+      <p class="message" id="register-message" role="status" aria-live="polite"></p>
+    </form>
+
+    <section id="session-panel" hidden>
+      <p id="session-message" class="intro" role="status"></p>
+      <button class="submit-button" id="enter-store" type="button">Entrar a la tienda</button>
+      <button class="submit-button" id="logout-button" type="button">Cerrar sesión</button>
+    </section>
+
+    <p class="footer" id="login-footer">
+      ¿No tienes una cuenta?
+      <button class="text-button" id="show-register" type="button">Crear cuenta</button>
+    </p>
+    <p class="footer" id="register-footer" hidden>
+      ¿Ya tienes una cuenta?
+      <button class="text-button" id="show-login" type="button">Iniciar sesión</button>
+    </p>
+  </main>
+
+  <script src="login.js" defer></script>
+</body>
+</html>

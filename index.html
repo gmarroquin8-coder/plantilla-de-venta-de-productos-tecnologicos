@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>Voltio — Tecnología para todos los días</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <div class="announcement">
+    Envío gratis en compras mayores a <strong>$1,500 MXN</strong> · Tecnología para disfrutar cada día
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Voltio, inicio">
+        <span class="brand-mark" aria-hidden="true">ϟ</span>
+        <span>voltio<span class="brand-dot">.</span></span>
+      </a>
+
+      <label class="search" aria-label="Buscar productos">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8"/>
+          <path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <input id="product-search" type="search" placeholder="Busca un producto o categoría..." autocomplete="off">
+      </label>
+
+      <div class="header-actions">
+        <a class="header-button" id="account-button" href="login.html" aria-label="Mi cuenta">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.7"/>
+            <path d="M5 20c.7-3.1 3.2-5 7-5s6.3 1.9 7 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <span class="button-label">Mi cuenta</span>
+        </a>
+        <button class="header-button" id="cart-button" type="button" aria-expanded="false" aria-controls="cart-panel">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="10" cy="19" r="1.2" fill="currentColor"/>
+            <circle cx="18" cy="19" r="1.2" fill="currentColor"/>
+          </svg>
+          <span class="button-label">Carrito</span>
+          <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav-wrap" aria-label="Navegación principal">
+      <div class="nav-inner">
+        <div class="category-menu">
+          <button class="category-trigger" id="category-trigger" type="button" aria-expanded="false" aria-controls="category-dropdown">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            Categorías
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="category-dropdown" id="category-dropdown" aria-label="Secciones de la tienda">
+            <a class="category-link" href="?categoria=electrodomesticos"><span class="emoji">🏠</span>Electrodomésticos</a>
+            <a class="category-link" href="?categoria=computacion"><span class="emoji">💻</span>Computación</a>
+            <a class="category-link" href="?categoria=casa-smart"><span class="emoji">💡</span>Casa smart</a>
+            <a class="category-link" href="?categoria=telefonos"><span class="emoji">📱</span>Teléfonos</a>
+            <a class="category-link" href="?categoria=audifonos"><span class="emoji">🎧</span>Audífonos</a>
+            <a class="category-link" href="?categoria=bocinas"><span class="emoji">🔊</span>Bocinas</a>
+            <a class="category-link" href="?categoria=juguetes"><span class="emoji">🧸</span>Juguetes</a>
+            <a class="category-link" href="?categoria=videojuegos"><span class="emoji">🕹️</span>Videojuegos</a>
+            <a class="category-link" href="?categoria=consolas"><span class="emoji">🎮</span>Consolas</a>
+            <a class="category-link" href="?categoria=controles"><span class="emoji">🕹️</span>Controles</a>
+          </div>
+        </div>
+        <a class="nav-link" href="#destacados">Lo más vendido</a>
+        <a class="nav-link" href="#categorias">Explorar tienda</a>
+        <span class="shipping-note">Compra fácil · Paga seguro · Disfruta más</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span aria-hidden="true"></span> El futuro se disfruta hoy</span>
+        <h1 id="hero-title">La tecnología que <em>te conecta.</em></h1>
+        <p>Encuentra tus favoritos para trabajar, jugar y transformar tu espacio. Todo lo que imaginas, en un solo lugar.</p>
+        <a class="hero-cta" href="#categorias">
+          Explorar tecnología
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit"></div>
+        <div class="device">
+          <div class="device-screen">✦</div>
+        </div>
+        <div class="floating-chip chip-headphones">🎧</div>
+        <div class="floating-chip chip-watch">⌚</div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Beneficios de comprar en Voltio">
+      <div class="benefit">
+        <span class="benefit-icon" aria-hidden="true">🚚</span>
+        <div><strong>Envíos a todo México</strong><span>Gratis desde $1,500 MXN</span></div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon" aria-hidden="true">🔒</span>
+        <div><strong>Compra con confianza</strong><span>Pagos protegidos y seguros</span></div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon" aria-hidden="true">💬</span>
+        <div><strong>Estamos para ayudarte</strong><span>Atención cuando la necesitas</span></div>
+      </div>
+    </section>
+
+    <section class="catalog" id="categorias" aria-labelledby="catalog-title">
+      <div class="category-back" id="category-back" hidden>
+        <a href="index.html">← Volver a todas las categorías</a>
+      </div>
+      <div class="section-heading" id="destacados">
+        <div>
+          <p class="kicker">Selección Voltio</p>
+          <h2 id="catalog-title">Tecnología para tu mundo</h2>
+        </div>
+        <p>Explora nuestras categorías y encuentra algo que te encante.</p>
+      </div>
+      <div id="product-sections"></div>
+      <div class="no-results" id="no-results" role="status">No encontramos productos con esa búsqueda. Prueba con otra palabra.</div>
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cart-panel" aria-label="Tu carrito" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Tu carrito</h2>
+      <button class="close-cart" id="close-cart" type="button" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><span id="cart-total">$0.00</span></div>
+      <button class="checkout-button" id="checkout-button" type="button">Continuar compra</button>
+    </div>
+  </aside>
+  <dialog class="spec-dialog" id="spec-dialog" aria-labelledby="spec-title">
+    <div class="spec-dialog-inner">
+      <div class="spec-dialog-header">
+        <div>
+          <p class="spec-kicker">Ficha del producto</p>
+          <h2 id="spec-title"></h2>
+        </div>
+        <button class="spec-close" id="close-specs" type="button" aria-label="Cerrar especificaciones">×</button>
+      </div>
+      <p class="spec-description" id="spec-description"></p>
+      <dl class="spec-list" id="spec-list"></dl>
+      <p class="spec-note">Ficha ilustrativa para esta tienda de demostración. Confirma los datos y la compatibilidad del modelo antes de comprar.</p>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <strong>voltio.</strong>
+    <p>Una tienda de demostración. Productos, precios y compras son ilustrativos.</p>
+  </footer>
+
+  <script src="store.js" defer></script>
+</body>
+</html>

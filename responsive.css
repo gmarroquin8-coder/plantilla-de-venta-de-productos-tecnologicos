@@ -1,0 +1,192 @@
+@media (max-width: 850px) {
+      .header-inner {
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        padding: 14px 0;
+      }
+
+      .search {
+        order: 3;
+        flex-basis: 100%;
+        max-width: none;
+      }
+
+      .header-actions {
+        margin-left: auto;
+      }
+
+      .hero {
+        min-height: 370px;
+        padding: 42px 6%;
+      }
+
+      .hero-art {
+        min-height: 240px;
+      }
+
+      .device {
+        transform: scale(0.88) rotate(-8deg);
+      }
+
+      .benefits {
+        grid-template-columns: 1fr;
+        gap: 9px;
+        margin-bottom: 42px;
+      }
+
+      .benefit {
+        padding: 12px 15px;
+      }
+
+      .product-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      .announcement {
+        font-size: 0.71rem;
+      }
+
+      .header-inner,
+      .nav-inner,
+      .hero,
+      .benefits,
+      .catalog {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .header-inner {
+        min-height: 0;
+      }
+
+      .brand {
+        font-size: 1.2rem;
+      }
+
+      .header-button {
+        min-height: 38px;
+        padding: 0 9px;
+        font-size: 0.8rem;
+      }
+
+      .header-button .button-label {
+        display: none;
+      }
+
+      .nav-inner {
+        min-height: 45px;
+        gap: 19px;
+      }
+
+      .shipping-note {
+        display: none;
+      }
+
+      .category-dropdown {
+        left: -7px;
+        grid-template-columns: 1fr;
+        max-height: min(65vh, 440px);
+        overflow-y: auto;
+      }
+
+      .hero {
+        min-height: 0;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-top: 16px;
+        padding: 34px 25px 22px;
+        border-radius: 21px;
+      }
+
+      .hero h1 {
+        font-size: clamp(2.65rem, 12vw, 3.7rem);
+      }
+
+      .hero-copy > p {
+        margin: 15px 0 20px;
+        font-size: 0.92rem;
+      }
+
+      .hero-art {
+        min-height: 210px;
+      }
+
+      .device {
+        transform: scale(0.78) rotate(-8deg);
+      }
+
+      .orbit {
+        width: 210px;
+      }
+
+      .chip-headphones {
+        left: 13%;
+      }
+
+      .chip-watch {
+        right: 13%;
+      }
+
+      .benefits {
+        margin-top: 13px;
+      }
+
+      .catalog {
+        margin-bottom: 50px;
+      }
+
+      .section-heading {
+        align-items: start;
+        flex-direction: column;
+        gap: 7px;
+      }
+
+      .category-section {
+        margin-bottom: 33px;
+      }
+
+      .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .product-art {
+        min-height: 125px;
+      }
+
+      .product-art .product-emoji {
+        font-size: 3.5rem;
+      }
+
+      .product-info {
+        padding: 11px;
+      }
+
+      .product-info h4 {
+        font-size: 0.84rem;
+      }
+
+      .product-description {
+        font-size: 0.72rem;
+      }
+
+      .price {
+        font-size: 0.91rem;
+      }
+
+      .cart-panel {
+        top: 10px;
+        right: 10px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
